@@ -134,7 +134,7 @@ To install Node-RED and set up a password on a Raspberry Pi 4, you can follow th
 
 That's it! You have successfully installed Node-RED on your Raspberry Pi 4 and set up a password for authentication. Now, only authenticated users can access the Node-RED editor.
 
-#Commands for service
+# Commands for service
 To manage the Node-RED service on a Raspberry Pi, you can use the `systemctl` command, which is the standard command for controlling services in systemd-based Linux distributions. Here are the commands for starting, stopping, and checking the status of the Node-RED service:
 
 1. Start Node-RED service:
@@ -157,7 +157,7 @@ sudo systemctl restart nodered
 sudo systemctl status nodered
 ```
 
-#This command will display a list of nearby BLE devices along with their MAC addresses. Make note of the MAC address of the specific BLE device you want to connect to.
+# This command will display a list of nearby BLE devices along with their MAC addresses. Make note of the MAC address of the specific BLE device you want to connect to.
 
 Pair and connect to the desired BLE device. Use the bluetoothctl utility to interact with Bluetooth devices. Start the utility by entering the following command:
 
